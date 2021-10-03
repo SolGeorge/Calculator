@@ -1,2 +1,3 @@
 # Calculator
-!!!Nu este gata!!!
+
+Can make simple operations like : "+", "-", "*", "/" and "^".
