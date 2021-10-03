@@ -4,8 +4,9 @@
 
 int main() 
 {
-    printf("\n***CALCULATOR***\n\n\n");
-
+    printf("\n***CALCULATOR***\n");
+    printf("\n\"First_number\"+\"Simbol\"+\"Second_number\"\n\n\n");
+    
     f_calculator();
 
     return 0;
