@@ -64,6 +64,18 @@ void f_calculator()
         printf("=%d\n",total);
 
         break;
+        case '^':
+
+        nr=verificare_int(nr);
+
+        for(int i = 0; i < nr; i++)
+        {
+            total *=total ;
+        }
+        
+        printf("=%d\n",total);
+
+        break;
         default:
 
         printf("\nError! The operation is not correct\n");
