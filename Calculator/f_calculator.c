@@ -67,13 +67,13 @@ void f_calculator()
         case '^':
 
         nr=verificare_int(nr);
-
+        int temp = 1;
         for(int i = 0; i < nr; i++)
         {
-            total *=total ;
+            temp *= total;
         }
         
-        printf("=%d\n",total);
+        printf("=%d\n",temp);
 
         break;
         default:
