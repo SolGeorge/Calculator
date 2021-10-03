@@ -28,17 +28,14 @@ void f_calculator()
     int total = 0;
 
     total=verificare_int(total);
-    //printf("%d", total);
 
     operation=verificare_char(operation);
-    //printf("%c", operation);
 
     switch (operation) 
     {
         case '+':
 
         nr=verificare_int(nr);
-        //printf("%d", nr);
 
         total += nr;
         printf("=%d\n",total);
@@ -47,7 +44,6 @@ void f_calculator()
         case '-':
 
         nr=verificare_int(nr);
-        //printf("%d", nr);
 
         total -= nr;
         printf("=%d\n",total);
@@ -55,7 +51,6 @@ void f_calculator()
         break;
         case '*':
         nr=verificare_int(nr);
-        //printf("%d", nr);
 
         total *= nr;
         printf("=%d\n",total);
@@ -64,7 +59,6 @@ void f_calculator()
         case '/':
 
         nr=verificare_int(nr);
-        //printf("%d", nr);
 
         total /= nr;
         printf("=%d\n",total);
@@ -77,12 +71,7 @@ void f_calculator()
 
     if((scanf("%c", &operation)) == 1 )
     {
-        //fflush(stdin); 
         f_calculator();
-    }
-    else
-    {
-        printf("\n***THE END***\n");
     }
 
 }
